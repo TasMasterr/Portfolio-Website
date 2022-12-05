@@ -1,0 +1,188 @@
+/* --------- Colors ----------- */
+/* #360568 - Persian Indigo */
+/* #5B2A86 - KSU Purple */
+/* #ffffff - White */
+
+
+/* --------- Global ----------- */
+body {
+    background: #5B2A86;
+    margin: 0;
+}
+h1 {
+    display: grid;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 72pt;
+    font-family: Verdana;    
+}
+h2 {
+    font-size: 28pt;
+    font-family: Verdana;
+}
+h3 {
+    font-size: 18pt;
+    font-family: Verdana;
+}
+p {
+    font-size: 14pt;
+    font-family: Verdana;
+}
+.content-wrap{
+    width: 900px;
+    margin: 0 auto;
+    padding: 200px 0;
+}
+
+
+/* ------ Navigation Bar ------ */
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #3a005c;
+    height: auto;
+ }
+.left-links {
+    flex: auto;
+    padding: 20px;
+}
+.right-links {
+    padding: 20px;
+}
+.links {
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* --------- Profile ---------- */
+.header-wrap{
+    width: 900px;
+    margin: 0 auto;
+    padding: 300px 0;
+}
+.contact-subhead{
+    text-align: center;
+}
+.message{
+    text-align: center;
+}
+header {
+    background: #5B2A86;
+    color: #ffffff;
+}
+.portrait {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.bio {
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+/* ------- Contact Form ------- */
+.contact-info{
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+}
+.label{
+    font-family: Verdana;
+}
+.contact-wrap{
+    width: 1500px;
+    margin: 0 auto;
+    padding: 100px;
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical
+  }
+  input[type=submit] {
+    background-color: #5B2A86;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #3a005c;
+  }
+.container{
+    border-radius: 10px;
+    background-color: #1f0031;
+    padding: 50px;    
+}
+
+
+/* --------- Projects --------- */
+.image-link{
+    width: 100%;
+    height: 100%;
+}
+.grid-container {
+    padding: 100px;
+    justify-content: center;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 300px;
+}
+.photo {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.photo-tall{
+    grid-row: span 2 / auto;
+}
+.photo-wide{
+    grid-column: span 2 / auto;
+}
+
+
+/* ---------- Contact --------- */
+.footer-wrap{
+    width: 900px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    background: #3a005c;
+    color: #ffffff;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Verdana;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+}
